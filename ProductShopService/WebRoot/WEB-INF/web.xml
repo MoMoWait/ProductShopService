@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>ProductShopService</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+	
+	<servlet>
+		<servlet-name>HomeService</servlet-name>
+		<servlet-class>cn.edu.fjnu.servlet.HomeServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>CategoryService</servlet-name>
+		<servlet-class>cn.edu.fjnu.servlet.CategoryServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>LoginService</servlet-name>
+		<servlet-class>cn.edu.fjnu.servlet.LoginServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>MyService</servlet-name>
+		<servlet-class>cn.edu.fjnu.servlet.MyServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>CarShopService</servlet-name>
+		<servlet-class>cn.edu.fjnu.servlet.CarServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>FeedBackService</servlet-name>
+		<servlet-class>cn.edu.fjnu.servlet.FeedBackServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>OrderService</servlet-name>
+		<servlet-class>cn.edu.fjnu.servlet.OrderServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>WatchService</servlet-name>
+		<servlet-class>cn.edu.fjnu.servlet.WatchServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>SearchService</servlet-name>
+		<servlet-class>cn.edu.fjnu.servlet.SearchServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>AccessService</servlet-name>
+		<servlet-class>cn.edu.fjnu.servlet.AccessServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>UpLoadFileService</servlet-name>
+		<servlet-class>cn.edu.fjnu.servlet.FileUploadServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>RegisterService</servlet-name>
+		<servlet-class>cn.edu.fjnu.servlet.RegisterServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>HomeService</servlet-name>
+		<url-pattern>/HomeService</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CategoryService</servlet-name>
+		<url-pattern>/CategoryService</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoginService</servlet-name>
+		<url-pattern>/LoginService</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>MyService</servlet-name>
+		<url-pattern>/MyService</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CarShopService</servlet-name>
+		<url-pattern>/CarShopService</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>FeedBackService</servlet-name>
+		<url-pattern>/FeedBackService</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>OrderService</servlet-name>
+		<url-pattern>/OrderService</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>WatchService</servlet-name>
+		<url-pattern>/WatchService</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>SearchService</servlet-name>
+		<url-pattern>/SearchService</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>AccessService</servlet-name>
+		<url-pattern>/AccessService</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>UpLoadFileService</servlet-name>
+		<url-pattern>/UpLoadFileService</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>RegisterService</servlet-name>
+		<url-pattern>/RegisterService</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
